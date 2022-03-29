@@ -75,6 +75,36 @@ For demonstration and a better overview open `index.html`.
 - `link-white`
 - `link-black`
 
+### Spacing
+
+- {type}{sides}-{size}
+
+  m - margin<br>
+  p - padding
+
+  nothing - all sides<br>
+  t - top<br>
+  r - right<br>
+  b - bottom<br>
+  l - left<br>
+  x - left and right<br>
+  y - top and bottom
+
+  0 - 0px<br>
+  1 - 4px<br>
+  2 - 8px<br>
+  3 - 16px<br>
+  4 - 24px<br>
+  5 - 48px
+
+Examples:
+
+- `m-3`
+- `mr-2`
+- `mx-4`
+- `pl-2`
+- `py-2`
+
 ## Fonts
 
 - Alata (default)
