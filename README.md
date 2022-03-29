@@ -18,7 +18,7 @@ For demonstration and a better overview open `index.html`.
 - Blue `#144A8F`
 - Pink `#F766AE`
 - Purple `#3D296C`
-- Gray `#989898`
+- Gray `#6C757D`
 - White `#FFFFFF`
 - Black `#000000`
 
