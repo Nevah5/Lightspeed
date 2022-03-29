@@ -137,6 +137,26 @@ button.bg-black:active {
   color: var(--color-black);
 }
 
+/** SIZE **/
+.fs-1 {
+  font-size: 2em;
+}
+.fs-2 {
+  font-size: 1.5em;
+}
+.fs-3 {
+  font-size: 1.17em;
+}
+.fs-4 {
+  font-size: 1em;
+}
+.fs-5 {
+  font-size: 0.83em;
+}
+.fs-6 {
+  font-size: 0.67em;
+}
+
 /** LINKS **/
 .link-red {
   color: var(--color-red);
