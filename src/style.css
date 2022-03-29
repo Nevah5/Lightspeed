@@ -1,6 +1,6 @@
-@import url("colors.css");
-@import url("text.css");
-@import url("badges.css");
-@import url("fonts.css");
-@import url("margin.css");
-@import url("padding.css");
+@import url("./css/colors.css");
+@import url("./css/text.css");
+@import url("./css/badges.css");
+@import url("./css/fonts.css");
+@import url("./css/margin.css");
+@import url("./css/padding.css");

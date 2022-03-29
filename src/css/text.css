@@ -1,3 +1,18 @@
+/** DEFAULT SPACING **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /** BACKGROUNDS **/
 .bg-red {
   background-color: var(--color-red);
