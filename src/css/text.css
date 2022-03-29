@@ -17,73 +17,85 @@ ul {
 .bg-red {
   background-color: var(--color-red);
 }
-.bg-red:active {
+a.bg-red:active,
+button.bg-red:active {
   outline: 0.2em var(--color-opacity50-red) solid;
 }
 .bg-orange {
   background-color: var(--color-orange);
 }
-.bg-orange:active {
+a.bg-orange:active,
+button.bg-orange:active {
   outline: 0.2em var(--color-opacity50-orange) solid;
 }
 .bg-yellow {
   background-color: var(--color-yellow);
 }
-.bg-yellow:active {
+a.bg-yellow:active,
+button.bg-yellow:active {
   outline: 0.2em var(--color-opacity50-yellow) solid;
 }
 .bg-lime {
   background-color: var(--color-lime);
 }
-.bg-lime:active {
+a.bg-lime:active,
+button.bg-lime:active {
   outline: 0.2em var(--color-opacity50-lime) solid;
 }
 .bg-green {
   background-color: var(--color-green);
 }
-.bg-green:active {
+a.bg-green:active,
+button.bg-green:active {
   outline: 0.2em var(--color-opacity50-green) solid;
 }
 .bg-cyan {
   background-color: var(--color-cyan);
 }
-.bg-cyan:active {
+a.bg-cyan:active,
+button.bg-cyan:active {
   outline: 0.2em var(--color-opacity50-cyan) solid;
 }
 .bg-blue {
   background-color: var(--color-blue);
 }
-.bg-blue:active {
+a.bg-blue:active,
+button.bg-blue:active {
   outline: 0.2em var(--color-opacity50-blue) solid;
 }
 .bg-pink {
   background-color: var(--color-pink);
 }
-.bg-pink:active {
+a.bg-pink:active,
+button.bg-repinkd:active {
   outline: 0.2em var(--color-opacity50-pink) solid;
 }
 .bg-purple {
   background-color: var(--color-purple);
 }
-.bg-purple:active {
+a.bg-purple:active,
+button.bg-purple:active {
   outline: 0.2em var(--color-opacity50-purple) solid;
 }
 .bg-gray {
   background-color: var(--color-gray);
 }
-.bg-gray:active {
+a.bg-gray:active,
+button.bg-gray:active {
   outline: 0.2em var(--color-opacity50-gray) solid;
 }
 .bg-white {
   background-color: var(--color-white);
 }
-.bg-white:active {
+a.bg-white:active,
+button.bg-white:active {
   outline: 0.2em var(--color-opacity50-white) solid;
 }
 .bg-black {
   background-color: var(--color-black);
 }
-.bg-black:active {
+a.bg-black:active,
+button.bg-black:active {
   outline: 0.2em var(--color-opacity50-black) solid;
 }
 
