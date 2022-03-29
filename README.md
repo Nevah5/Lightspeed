@@ -59,3 +59,7 @@ For demonstration and a better overview open `index.html`.
 
 - `badge`
 - `pill-rounded`
+
+## Fonts
+
+- Alata (default)
