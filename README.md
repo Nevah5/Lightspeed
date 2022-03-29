@@ -54,3 +54,8 @@ For demonstration and a better overview open `index.html`.
 - `text-gray`
 - `text-white` (default)
 - `text-black`
+
+### Badges
+
+- `badge`
+- `pill-rounded`

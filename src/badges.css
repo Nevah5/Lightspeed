@@ -1,0 +1,10 @@
+.badge {
+  font-size: 0.8em;
+  padding: 0.1em 0.5em;
+  border-radius: 0.2em;
+  max-height: 100%;
+}
+
+.pill-rounded {
+  border-radius: 10em;
+}
