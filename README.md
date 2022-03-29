@@ -60,6 +60,21 @@ For demonstration and a better overview open `index.html`.
 - `badge`
 - `pill-rounded`
 
+### Links
+
+- `link-red`
+- `link-orange`
+- `link-yellow`
+- `link-lime`
+- `link-green`
+- `link-cyan`
+- `link-blue`
+- `link-pink`
+- `link-purple`
+- `link-gray`
+- `link-white`
+- `link-black`
+
 ## Fonts
 
 - Alata (default)

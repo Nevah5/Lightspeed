@@ -73,3 +73,41 @@
 .text-black {
   color: var(--color-black);
 }
+
+/** LINKS **/
+.link-red {
+  color: var(--color-red);
+}
+.link-orange {
+  color: var(--color-orange);
+}
+.link-yellow {
+  color: var(--color-yellow);
+}
+.link-lime {
+  color: var(--color-lime);
+}
+.link-green {
+  color: var(--color-green);
+}
+.link-cyan {
+  color: var(--color-cyan);
+}
+.link-blue {
+  color: var(--color-blue);
+}
+.link-pink {
+  color: var(--color-pink);
+}
+.link-purple {
+  color: var(--color-purple);
+}
+.link-gray {
+  color: var(--color-gray);
+}
+.link-white {
+  color: var(--color-white);
+}
+.link-black {
+  color: var(--color-black);
+}
