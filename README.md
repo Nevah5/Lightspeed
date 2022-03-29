@@ -52,5 +52,5 @@ For demonstration and a better overview open `index.html`.
 - `text-pink`
 - `text-purple`
 - `text-gray`
-- `text-white`
-- `text-black` (default)
+- `text-white` (default)
+- `text-black`
