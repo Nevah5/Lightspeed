@@ -11,4 +11,17 @@
   --color-gray: #6c757d;
   --color-white: #ffffff;
   --color-black: #000000;
+
+  --color-opacity50-red: rgb(242, 9, 0, 0.5);
+  --color-opacity50-orange: rgb(246, 98, 31, 0.5);
+  --color-opacity50-yellow: rgb(254, 204, 47, 0.5);
+  --color-opacity50-lime: rgb(0, 247, 0, 0.5);
+  --color-opacity50-green: rgb(59, 110, 47, 0.5);
+  --color-opacity50-cyan: rgb(0, 247, 247, 0.5);
+  --color-opacity50-blue: rgb(20, 74, 143, 0.5);
+  --color-opacity50-pink: rgb(247, 102, 174, 0.5);
+  --color-opacity50-purple: rgb(61, 41, 108, 0.5);
+  --color-opacity50-gray: rgb(108, 117, 125, 0.5);
+  --color-opacity50-white: rgb(255, 255, 255, 0.5);
+  --color-opacity50-black: rgb(0, 0, 0, 0.5);
 }
