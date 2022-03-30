@@ -1,3 +1,4 @@
+/** COLORS **/
 .border-red,
 .border-red * {
   border-color: var(--color-red) !important;
@@ -49,4 +50,127 @@
 .border-black,
 .border-black * {
   border-color: var(--color-black) !important;
+}
+
+/** SIZES **/
+.border-1 {
+  border-width: 1px !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-3 {
+  border-width: 3px !important;
+}
+.border-4 {
+  border-width: 4px !important;
+}
+.border-5 {
+  border-width: 5px !important;
+}
+
+.bordert-1 {
+  border-top-width: 1px !important;
+}
+.bordert-2 {
+  border-top-width: 2px !important;
+}
+.bordert-3 {
+  border-top-width: 3px !important;
+}
+.bordert-4 {
+  border-top-width: 4px !important;
+}
+.bordert-5 {
+  border-top-width: 5px !important;
+}
+
+.borderr-1 {
+  border-right-width: 1px !important;
+}
+.borderr-2 {
+  border-right-width: 2px !important;
+}
+.borderr-3 {
+  border-right-width: 3px !important;
+}
+.borderr-4 {
+  border-right-width: 4px !important;
+}
+.borderr-5 {
+  border-right-width: 5px !important;
+}
+
+.borderb-1 {
+  border-bottom-width: 1px !important;
+}
+.borderb-2 {
+  border-bottom-width: 2px !important;
+}
+.borderb-3 {
+  border-bottom-width: 3px !important;
+}
+.borderb-4 {
+  border-bottom-width: 4px !important;
+}
+.borderb-5 {
+  border-bottom-width: 5px !important;
+}
+
+.borderl-1 {
+  border-left-width: 1px !important;
+}
+.borderl-2 {
+  border-left-width: 2px !important;
+}
+.borderl-3 {
+  border-left-width: 3px !important;
+}
+.borderl-4 {
+  border-left-width: 4px !important;
+}
+.borderl-5 {
+  border-left-width: 5px !important;
+}
+
+.borderx-1 {
+  border-right-width: 1px !important;
+  border-left-width: 1px !important;
+}
+.borderx-2 {
+  border-right-width: 2px !important;
+  border-left-width: 2px !important;
+}
+.borderx-3 {
+  border-right-width: 3px !important;
+  border-left-width: 3px !important;
+}
+.borderx-4 {
+  border-right-width: 4px !important;
+  border-left-width: 4px !important;
+}
+.borderx-5 {
+  border-right-width: 5px !important;
+  border-left-width: 5px !important;
+}
+
+.bordery-1 {
+  border-top-width: 1px !important;
+  border-bottom-width: 1px !important;
+}
+.bordery-2 {
+  border-top-width: 2px !important;
+  border-bottom-width: 2px !important;
+}
+.bordery-3 {
+  border-top-width: 3px !important;
+  border-bottom-width: 3px !important;
+}
+.bordery-4 {
+  border-top-width: 4px !important;
+  border-bottom-width: 4px !important;
+}
+.bordery-5 {
+  border-top-width: 5px !important;
+  border-bottom-width: 5px !important;
 }
