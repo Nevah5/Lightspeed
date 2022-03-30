@@ -16,6 +16,23 @@ a {
   text-decoration: none;
 }
 
+/** PLACHOLDER **/
+@keyframes loadingPlaceholder {
+  0% {
+    background-color: var(--color-gray);
+  }
+  100% {
+    background-color: var(--color-darkgray);
+  }
+}
+.placeholder {
+  animation: loadingPlaceholder 1s infinite forwards alternate;
+  display: inline-block;
+  height: 1em;
+  background-color: var(--color-gray);
+  cursor: wait;
+}
+
 /** BACKGROUNDS **/
 .bg-red {
   background-color: var(--color-red);
