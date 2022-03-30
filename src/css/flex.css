@@ -6,6 +6,9 @@
 .flex-wrap {
   flex-wrap: wrap !important;
 }
+.flex-direction-col {
+  flex-direction: column !important;
+}
 .flexx-start {
   justify-content: flex-start !important;
 }
