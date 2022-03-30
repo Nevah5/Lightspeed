@@ -3,33 +3,36 @@
   justify-content: center;
   align-items: center;
 }
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
 .flexx-start {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 .flexx-end {
-  justify-content: flex-end;
+  justify-content: flex-end !important;
 }
 .flexx-around {
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 .flexx-between {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 .flexx-evenly {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 .flexy-start {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 .flexy-end {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 .flexy-around {
-  align-items: space-around;
+  align-items: space-around !important;
 }
 .flexy-between {
-  align-items: space-between;
+  align-items: space-between !important;
 }
 .flexy-evenly {
-  align-items: space-evenly;
+  align-items: space-evenly !important;
 }
