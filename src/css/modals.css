@@ -41,6 +41,7 @@
 }
 
 .modal-overlay {
+  z-index: 9999;
   animation: fade 0.5s forwards;
   transition: opacity 3s;
   position: fixed;
