@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Alata";
-  src: url("./fonts/Alata-Regular.ttf");
+  src: url("../fonts/Alata-Regular.ttf");
 }
 :root {
   font-family: "Alata", monospace;
