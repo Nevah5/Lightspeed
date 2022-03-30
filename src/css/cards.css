@@ -1,0 +1,40 @@
+@keyframes backgroundSize {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+.card {
+  animation: fade 0.5s forwards;
+  border: var(--color-gray) solid 1px;
+  border-radius: 0.5em;
+  overflow: hidden;
+  word-wrap: break-word;
+  width: 320px;
+}
+.card img {
+  border-bottom: var(--color-gray) solid 1px;
+  height: 200px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  transition: background 0.5s;
+}
+.card img:hover {
+  /* animation: backgroundSize 0.5s forwards; */
+  background-size: 110%;
+}
+.card .header {
+  padding: 1em 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .main {
+  padding: 0.5em 1em 1em;
+}
+.card .footer {
+  padding: 0.7em 1em 1em;
+}
