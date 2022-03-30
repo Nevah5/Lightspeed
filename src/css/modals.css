@@ -1,4 +1,13 @@
+@keyframes modalFade {
+  0% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .modal {
+  animation: modalFade 0.5s forwards;
   border: var(--color-gray) solid 1px;
   border-radius: 0.5em;
   overflow: hidden;
@@ -14,4 +23,23 @@
 .modal .main {
   border-top: var(--color-gray) solid 1px;
   padding: 0.5em 1em;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.modal-overlay {
+  animation: fade 0.5s forwards;
+  transition: opacity 3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--color-opacity75-darkgray);
+  height: 100vh;
+  width: 100vw;
 }

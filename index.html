@@ -297,6 +297,26 @@
         <button class="btn bg-blue text-white fs-4">Confirm</button>
       </div>
     </div>
+    <div id="overlay" class="modal-overlay flex flexy-start" style="display: none; opacity: 0;">
+      <div class="modal bg-white mt-4">
+        <div class="head">
+          <span class="fs-2">Title</span>
+          <button onclick="toggleModalOverlay()" class="btn btn-close"></button>
+        </div>
+        <div class="main">Hello this is a modal and I am going<br> to blabl blab lab labl bblblb bablabl </div>
+        <div class="main flex flexx-end">
+          <button onclick="toggleModalOverlay()" class="btn bg-red fs-4 text-white mr-1">Cancel</button>
+          <button onclick="toggleModalOverlay()" class="btn bg-green fs-4 text-white">Confirm</button>
+        </div>
+      </div>
+    </div>
+    <button class="btn bg-gray fs-3 text-white mt-3" onclick="toggleModalOverlay()">Show Demonstration</button>
+    <script>
+      function toggleModalOverlay() {
+        const overlay = document.getElementById('overlay');
+        overlay.style.display = overlay.style.display === 'none' ? 'flex' : 'none';
+      }
+    </script>
   </fieldset>
 </body>
 
