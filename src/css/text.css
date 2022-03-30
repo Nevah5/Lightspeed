@@ -12,6 +12,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 
 /** BACKGROUNDS **/
 .bg-red {
@@ -199,41 +202,54 @@ ul {
 
 /** LINKS **/
 .link-red {
+  text-decoration: underline;
   color: var(--color-red) !important;
 }
 .link-orange {
+  text-decoration: underline;
   color: var(--color-orange) !important;
 }
 .link-yellow {
+  text-decoration: underline;
   color: var(--color-yellow) !important;
 }
 .link-lime {
+  text-decoration: underline;
   color: var(--color-lime) !important;
 }
 .link-green {
+  text-decoration: underline;
   color: var(--color-green) !important;
 }
 .link-cyan {
+  text-decoration: underline;
   color: var(--color-cyan) !important;
 }
 .link-blue {
+  text-decoration: underline;
   color: var(--color-blue) !important;
 }
 .link-pink {
+  text-decoration: underline;
   color: var(--color-pink) !important;
 }
 .link-purple {
+  text-decoration: underline;
   color: var(--color-purple) !important;
 }
 .link-darkgray {
+  text-decoration: underline;
   color: var(--color-darkgray) !important;
 }
 .link-gray {
+  text-decoration: underline;
   color: var(--color-gray) !important;
 }
 .link-white {
+  text-decoration: underline;
   color: var(--color-white) !important;
 }
 .link-black {
+  text-decoration: underline;
   color: var(--color-black) !important;
 }
