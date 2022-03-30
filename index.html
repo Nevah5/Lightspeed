@@ -371,16 +371,67 @@
     <legend>Toasts</legend>
     <div class="toast">
       <div class="header">
-        <div>
-          <img src="https://nevah5.com/media/nevah.svg" class="rounded mr-2" height="30px" width="30px"></img>
-          <span class="text-black fs-3">Nevah5</span>
-        </div>
-        <div>
+        <a href="https://nevah5.com" class="section">
+          <img src="https://nevah5.com/media/nevah.svg" class="rounded mr-2"></img>
+          <span class="title">Nevah5</span>
+        </a>
+        <div class="section">
           <span class="fs-5 text-darkgray">New Message</span>
           <button class="btn btn-close ml-3"></button>
         </div>
       </div>
+      <div class="main">
+        <span>Text is located <a class="link-red">here</a>. Something Something Something</span>
+      </div>
+      <div class="footer flex flexx-end">
+        <span class="timestamp">14:40</span>
+        <a class="btn bg-blue text-white">Reply</a>
+      </div>
     </div>
+    <div class="toast mt-3">
+      <div class="header">
+        <span class="title">Title</span>
+        <div class="section">
+          <span class="fs-5 text-darkgray">Info</span>
+          <button class="btn btn-close ml-3"></button>
+        </div>
+      </div>
+      <div class="main">
+        <span>Text is located <a class="link-red">here</a>. Something Something Something</span>
+      </div>
+      <div class="footer flex flexx-end">
+        <span class="timestamp">14:43</span>
+        <a class="btn bg-blue text-white">Reply</a>
+      </div>
+    </div>
+    <button onclick="toggleToastOverlay()" class="btn bg-gray text-white fs-4 mt-3">Show Demonstration</button>
+    <div id="overlay2" class="toast-overlay">
+      <div class="toast" style="display: none;">
+        <div class="header">
+          <a href="https://nevah5.com" class="section">
+            <img src="https://nevah5.com/media/nevah.svg" class="rounded mr-2"></img>
+            <span class="title">Nevah5</span>
+          </a>
+          <div class="section">
+            <span class="fs-5 text-darkgray">New Message</span>
+            <button onclick="toggleToastOverlay()" class="btn btn-close ml-3"></button>
+          </div>
+        </div>
+        <div class="main">
+          <span>Text is located <a class="link-red">here</a>. Something Something Something</span>
+        </div>
+        <div class="footer flex flexx-end">
+          <span class="timestamp">14:40</span>
+          <a class="btn bg-blue text-white">Reply</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      function toggleToastOverlay() {
+        const overlay = document.querySelector('#overlay2 .toast');
+        overlay.style.display = overlay.style.display === 'none' ? 'initial' : 'none';
+      }
+    </script>
   </fieldset>
 </body>
 
