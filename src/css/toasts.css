@@ -1,0 +1,18 @@
+.toast {
+  border: var(--color-opacity50-gray) solid 1px;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.toast .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toast .header div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.toast .header div img {
+  border: var(--color-opacity50-gray) solid 1px;
+}

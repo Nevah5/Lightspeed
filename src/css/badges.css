@@ -8,3 +8,7 @@
 .pill-rounded {
   border-radius: 10em;
 }
+
+.rounded {
+  border-radius: 50%;
+}
