@@ -6,3 +6,29 @@
   font-family: "Alata", monospace;
   cursor: pointer;
 }
+
+.btn-close {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 2em;
+  width: 2em;
+}
+.btn-close::before,
+.btn-close::after {
+  content: "";
+  border-radius: 0.4em;
+  height: 0.25em;
+  width: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--color-gray);
+}
+.btn-close::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.btn-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
