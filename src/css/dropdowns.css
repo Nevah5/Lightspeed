@@ -1,4 +1,8 @@
 .dropdown {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +13,10 @@
   width: fit-content;
   animation: fade 0.5s forwards;
   overflow: hidden;
+}
+.dropdown-up {
+  top: 0;
+  transform: translateY(-100%);
 }
 .dropdown .title {
   padding: 1em 1em 0.6em;
@@ -27,4 +35,17 @@
   height: 1px;
   width: 100%;
   background-color: var(--color-opacity50-gray);
+}
+
+/** TOGGLE **/
+.dropdown-group {
+  position: relative;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+.dropdown-group .dropdown {
+  display: none;
+}
+.dropdown-group input[type="checkbox"]:checked ~ .dropdown {
+  display: flex;
 }
