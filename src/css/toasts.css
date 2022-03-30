@@ -1,11 +1,3 @@
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .toast {
   border: var(--color-opacity50-gray) solid 1px;
   border-radius: 0.5em;
