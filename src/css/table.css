@@ -34,11 +34,7 @@
 
 /** COLORS **/
 .table-red {
-  color: white;
   background-color: var(--color-red);
-}
-.table-red * {
-  border-color: white !important;
 }
 .table-red.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity25-red);
@@ -47,11 +43,7 @@
   background-color: var(--color-opacity50-red);
 }
 .table-orange {
-  color: white;
   background-color: var(--color-orange);
-}
-.table-orange * {
-  border-color: white !important;
 }
 .table-orange.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity25-white);
@@ -60,11 +52,7 @@
   background-color: var(--color-opacity50-white);
 }
 .table-yellow {
-  color: white;
   background-color: var(--color-yellow);
-}
-.table-yellow * {
-  border-color: white !important;
 }
 .table-yellow.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity25-white);
@@ -73,11 +61,7 @@
   background-color: var(--color-opacity50-white);
 }
 .table-lime {
-  color: white;
   background-color: var(--color-lime);
-}
-.table-lime * {
-  border-color: white !important;
 }
 .table-lime.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity50-white);
@@ -86,11 +70,7 @@
   background-color: var(--color-opacity75-white);
 }
 .table-green {
-  color: white;
   background-color: var(--color-green);
-}
-.table-green * {
-  border-color: white !important;
 }
 .table-green.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity10-white);
@@ -99,11 +79,7 @@
   background-color: var(--color-opacity25-white);
 }
 .table-cyan {
-  color: white;
   background-color: var(--color-cyan);
-}
-.table-cyan * {
-  border-color: white !important;
 }
 .table-cyan.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity25-white);
@@ -112,11 +88,7 @@
   background-color: var(--color-opacity50-white);
 }
 .table-blue {
-  color: white;
   background-color: var(--color-blue);
-}
-.table-blue * {
-  border-color: white !important;
 }
 .table-blue.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity10-white);
@@ -134,11 +106,7 @@
   background-color: var(--color-opacity50-white);
 }
 .table-purple {
-  color: white;
   background-color: var(--color-purple);
-}
-.table-purple * {
-  border-color: white !important;
 }
 .table-purple.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity10-white);
@@ -147,11 +115,7 @@
   background-color: var(--color-opacity25-white);
 }
 .table-darkgray {
-  color: white;
   background-color: var(--color-darkgray);
-}
-.table-darkgray * {
-  border-color: white !important;
 }
 .table-darkgray.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity10-white);
@@ -169,11 +133,7 @@
   background-color: var(--color-opacity50-gray);
 }
 .table-black {
-  color: white;
   background-color: var(--color-black);
-}
-.table-black * {
-  border-color: white !important;
 }
 .table-black.table-striped tr:nth-child(2n) {
   background-color: var(--color-opacity25-white);
