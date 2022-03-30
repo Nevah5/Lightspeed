@@ -253,20 +253,20 @@
   <fieldset id="modals">
     <legend>Modals</legend>
     <div class="modal">
-      <div class="head">
+      <div class="header">
         <span class="title fs-1">test</span>
         <button class="btn btn-close"></button>
       </div>
       <div class="main">
         <span>testtestsjffahlksjdaflksdjflökjasdölfkjaölsdjkflaskjdflkasdsasds</span>
       </div>
-      <div class="main flex flexx-end">
+      <div class="footer flex flexx-end">
         <button class="btn bg-darkgray text-white mr-1 fs-4">Cancel</button>
         <button class="btn bg-blue text-white fs-4">Confirm</button>
       </div>
     </div>
     <div class="mt-3 text-red modal border-red">
-      <div class="head">
+      <div class="header">
         <span class="title fs-1">test</span>
         <button class="btn btn-close"></button>
       </div>
@@ -276,13 +276,19 @@
       <div class="main">
         <span>Another Division</span>
       </div>
-      <div class="main flex flexx-end">
+      <div class="footer flex flexx-end">
         <button class="btn bg-darkgray text-white mr-1 fs-4">Cancel</button>
         <button class="btn bg-blue text-white fs-4">Confirm</button>
       </div>
     </div>
+    <div class="modal mt-3">
+      <div class="header">
+        <span class="fs-2 pb-2">Test</span>
+        <button class="btn btn-close"></button>
+      </div>
+    </div>
     <div class="mt-3 modal border-red borderx-5 borderb-2 bordert-1">
-      <div class="head">
+      <div class="header">
         <span class="title fs-1">test</span>
         <button class="btn btn-close"></button>
       </div>
@@ -292,19 +298,19 @@
       <div class="main">
         <span>Another Division</span>
       </div>
-      <div class="main flex flexx-end">
+      <div class="footer flex flexx-end">
         <button class="btn bg-darkgray text-white mr-1 fs-4">Cancel</button>
         <button class="btn bg-blue text-white fs-4">Confirm</button>
       </div>
     </div>
     <div id="overlay" class="modal-overlay flex flexy-start" style="display: none; opacity: 0;">
       <div class="modal bg-white mt-4">
-        <div class="head">
+        <div class="header">
           <span class="fs-2">Title</span>
           <button onclick="toggleModalOverlay()" class="btn btn-close"></button>
         </div>
         <div class="main">Hello this is a modal and I am going<br> to blabl blab lab labl bblblb bablabl </div>
-        <div class="main flex flexx-end">
+        <div class="footer flex flexx-end">
           <button onclick="toggleModalOverlay()" class="btn bg-red fs-4 text-white mr-1">Cancel</button>
           <button onclick="toggleModalOverlay()" class="btn bg-green fs-4 text-white">Confirm</button>
         </div>
