@@ -68,6 +68,12 @@ ul {
 .btn.bg-purple:active {
   outline: 0.2em var(--color-opacity50-purple) solid;
 }
+.bg-darkgray {
+  background-color: var(--color-darkgray);
+}
+.btn.bg-darkgray:active {
+  outline: 0.2em var(--color-opacity50-darkgray) solid;
+}
 .bg-gray {
   background-color: var(--color-gray);
 }
@@ -114,6 +120,9 @@ ul {
 }
 .text-purple {
   color: var(--color-purple);
+}
+.text-darkgray {
+  color: var(--color-darkgray);
 }
 .text-gray {
   color: var(--color-gray);
@@ -176,6 +185,9 @@ ul {
 }
 .link-purple {
   color: var(--color-purple);
+}
+.link-darkgray {
+  color: var(--color-darkgray);
 }
 .link-gray {
   color: var(--color-gray);

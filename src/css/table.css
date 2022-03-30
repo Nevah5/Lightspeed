@@ -146,6 +146,19 @@
 .table-purple.table-hover tr:not(:first-child):hover {
   background-color: var(--color-opacity25-white);
 }
+.table-darkgray {
+  color: white;
+  background-color: var(--color-darkgray);
+}
+.table-darkgray * {
+  border-color: white !important;
+}
+.table-darkgray.table-striped tr:nth-child(2n) {
+  background-color: var(--color-opacity10-white);
+}
+.table-darkgray.table-hover tr:not(:first-child):hover {
+  background-color: var(--color-opacity25-white);
+}
 .table-white {
   background-color: var(--color-white);
 }
