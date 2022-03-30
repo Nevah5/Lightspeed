@@ -17,11 +17,17 @@ ul {
 .bg-red {
   background-color: var(--color-red);
 }
+.btn.bg-red:hover {
+  outline: 0.1em var(--color-opacity50-red) solid;
+}
 .btn.bg-red:active {
   outline: 0.2em var(--color-opacity50-red) solid;
 }
 .bg-orange {
   background-color: var(--color-orange);
+}
+.btn.bg-orange:hover {
+  outline: 0.1em var(--color-opacity50-orange) solid;
 }
 .btn.bg-orange:active {
   outline: 0.2em var(--color-opacity50-orange) solid;
@@ -29,11 +35,17 @@ ul {
 .bg-yellow {
   background-color: var(--color-yellow);
 }
+.btn.bg-yellow:hover {
+  outline: 0.1em var(--color-opacity50-yellow) solid;
+}
 .btn.bg-yellow:active {
   outline: 0.2em var(--color-opacity50-yellow) solid;
 }
 .bg-lime {
   background-color: var(--color-lime);
+}
+.btn.bg-lime:hover {
+  outline: 0.1em var(--color-opacity50-lime) solid;
 }
 .btn.bg-lime:active {
   outline: 0.2em var(--color-opacity50-lime) solid;
@@ -41,11 +53,17 @@ ul {
 .bg-green {
   background-color: var(--color-green);
 }
+.btn.bg-green:hover {
+  outline: 0.1em var(--color-opacity50-green) solid;
+}
 .btn.bg-green:active {
   outline: 0.2em var(--color-opacity50-green) solid;
 }
 .bg-cyan {
   background-color: var(--color-cyan);
+}
+.btn.bg-cyan:hover {
+  outline: 0.1em var(--color-opacity50-cyan) solid;
 }
 .btn.bg-cyan:active {
   outline: 0.2em var(--color-opacity50-cyan) solid;
@@ -53,17 +71,26 @@ ul {
 .bg-blue {
   background-color: var(--color-blue);
 }
+.btn.bg-blue:hover {
+  outline: 0.1em var(--color-opacity50-blue) solid;
+}
 .btn.bg-blue:active {
   outline: 0.2em var(--color-opacity50-blue) solid;
 }
 .bg-pink {
   background-color: var(--color-pink);
 }
-.btn.bg-repinkd:active {
+.btn.bg-pink:hover {
+  outline: 0.1em var(--color-opacity50-pink) solid;
+}
+.btn.bg-pink:active {
   outline: 0.2em var(--color-opacity50-pink) solid;
 }
 .bg-purple {
   background-color: var(--color-purple);
+}
+.btn.bg-purple:hover {
+  outline: 0.1em var(--color-opacity50-purple) solid;
 }
 .btn.bg-purple:active {
   outline: 0.2em var(--color-opacity50-purple) solid;
@@ -71,11 +98,17 @@ ul {
 .bg-darkgray {
   background-color: var(--color-darkgray);
 }
+.btn.bg-darkgray:hover {
+  outline: 0.1em var(--color-opacity50-darkgray) solid;
+}
 .btn.bg-darkgray:active {
   outline: 0.2em var(--color-opacity50-darkgray) solid;
 }
 .bg-gray {
   background-color: var(--color-gray);
+}
+.btn.bg-gray:hover {
+  outline: 0.1em var(--color-opacity50-gray) solid;
 }
 .btn.bg-gray:active {
   outline: 0.2em var(--color-opacity50-gray) solid;
@@ -83,11 +116,17 @@ ul {
 .bg-white {
   background-color: var(--color-white);
 }
+.btn.bg-white:hover {
+  outline: 0.1em var(--color-opacity50-white) solid;
+}
 .btn.bg-white:active {
   outline: 0.2em var(--color-opacity50-white) solid;
 }
 .bg-black {
   background-color: var(--color-black);
+}
+.btn.bg-black:hover {
+  outline: 0.1em var(--color-opacity50-black) solid;
 }
 .btn.bg-black:active {
   outline: 0.2em var(--color-opacity50-black) solid;
