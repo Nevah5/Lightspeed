@@ -2,6 +2,8 @@
   border: var(--color-gray) solid 1px;
   border-radius: 0.5em;
   overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .modal .head {
   padding: 0.5em 1em;
