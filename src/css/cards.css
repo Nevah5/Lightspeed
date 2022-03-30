@@ -1,11 +1,3 @@
-@keyframes backgroundSize {
-  0% {
-    background-size: 100%;
-  }
-  100% {
-    background-size: 110%;
-  }
-}
 .card {
   animation: fade 0.5s forwards;
   border: var(--color-gray) solid 1px;
@@ -22,8 +14,7 @@
   background-position: center;
   transition: background 0.5s;
 }
-.card img:hover {
-  /* animation: backgroundSize 0.5s forwards; */
+.card:hover img {
   background-size: 110%;
 }
 .card .header {
