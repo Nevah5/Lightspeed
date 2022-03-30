@@ -12,6 +12,19 @@
   --color-white: #ffffff;
   --color-black: #000000;
 
+  --color-opacity75-red: rgb(242, 9, 0, 0.75);
+  --color-opacity75-orange: rgb(246, 98, 31, 0.75);
+  --color-opacity75-yellow: rgb(254, 204, 47, 0.75);
+  --color-opacity75-lime: rgb(0, 247, 0, 0.75);
+  --color-opacity75-green: rgb(59, 110, 47, 0.75);
+  --color-opacity75-cyan: rgb(0, 247, 247, 0.75);
+  --color-opacity75-blue: rgb(20, 74, 143, 0.75);
+  --color-opacity75-pink: rgb(247, 102, 174, 0.75);
+  --color-opacity75-purple: rgb(61, 41, 108, 0.75);
+  --color-opacity75-gray: rgb(108, 117, 125, 0.75);
+  --color-opacity75-white: rgb(255, 255, 255, 0.75);
+  --color-opacity75-black: rgb(0, 0, 0, 0.75);
+
   --color-opacity50-red: rgb(242, 9, 0, 0.5);
   --color-opacity50-orange: rgb(246, 98, 31, 0.5);
   --color-opacity50-yellow: rgb(254, 204, 47, 0.5);
@@ -24,4 +37,17 @@
   --color-opacity50-gray: rgb(108, 117, 125, 0.5);
   --color-opacity50-white: rgb(255, 255, 255, 0.5);
   --color-opacity50-black: rgb(0, 0, 0, 0.5);
+
+  --color-opacity25-red: rgb(242, 9, 0, 0.25);
+  --color-opacity25-orange: rgb(246, 98, 31, 0.25);
+  --color-opacity25-yellow: rgb(254, 204, 47, 0.25);
+  --color-opacity25-lime: rgb(0, 247, 0, 0.25);
+  --color-opacity25-green: rgb(59, 110, 47, 0.25);
+  --color-opacity25-cyan: rgb(0, 247, 247, 0.25);
+  --color-opacity25-blue: rgb(20, 74, 143, 0.25);
+  --color-opacity25-pink: rgb(247, 102, 174, 0.25);
+  --color-opacity25-purple: rgb(61, 41, 108, 0.25);
+  --color-opacity25-gray: rgb(108, 117, 125, 0.25);
+  --color-opacity25-white: rgb(255, 255, 255, 0.25);
+  --color-opacity25-black: rgb(0, 0, 0, 0.25);
 }
