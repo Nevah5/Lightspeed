@@ -1,0 +1,30 @@
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: var(--color-opacity50-gray) solid 1px;
+  border-radius: 0.5em;
+  background-color: var(--color-white);
+  width: fit-content;
+  animation: fade 0.5s forwards;
+  overflow: hidden;
+}
+.dropdown .title {
+  padding: 1em 1em 0.6em;
+  font-size: 0.75rem;
+  font-weight: 1000;
+}
+.dropdown .main {
+  padding: 0.5em 1em;
+  width: 100%;
+  text-align: center;
+}
+.dropdown .main:hover {
+  background-color: var(--color-opacity25-darkgray);
+}
+.dropdown .spacer {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-opacity50-gray);
+}
